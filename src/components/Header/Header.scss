@@ -1,0 +1,45 @@
+.Header {
+  font-family: "DINPro", sans-serif;
+  padding-top: 165px;
+  padding-bottom: 125px;
+  text-align: center;
+  &--h1 {
+    font-family: DIN Pro;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    color: #222222;
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
+  &--text {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    color: #4a4556;
+    span {
+      color: #f47821;
+    }
+  }
+  .Btn {
+    &::before {
+      content: "+";
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      height: 54px;
+      width: 54px;
+      left: -8px;
+      top: 0;
+      border-radius: 50%;
+      background-color: lighten(#878787, 45%);
+      color: #f47821;
+      font-size: 34px;
+    }
+    &:hover {
+      background-color: lighten(#878787, 45%);
+    }
+  }
+}

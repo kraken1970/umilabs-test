@@ -1,0 +1,22 @@
+.Btn {
+  display: inline-flex;
+  height: 54px;
+  border: none;
+  outline: none;
+  font-family: Gilroy;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #222222;
+  padding-left: 45px;
+  padding-right: 30px;
+  background-color: transparent;
+  border-radius: 111px;
+  position: relative;
+  transition: all 0.3s ease;
+  &:active {
+    transform: scale(0.95);
+  }
+}
